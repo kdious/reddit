@@ -26,6 +26,7 @@ install:
             libmemcached-dev \
             make \
             pylint \
+            python-baseplate \
             python-beautifulsoup \
             python-bcrypt \
             python-coverage \
