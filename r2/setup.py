@@ -83,7 +83,7 @@ setup(
         "unidecode",
         "PyYAML",
         "Pillow",
-        "pylibmc==1.2.2",
+        "pylibmc",
         "webob",
         "webtest",
         "python-snappy",
@@ -95,7 +95,7 @@ setup(
     test_suite="nose.collector",
     dependency_links=[
         "https://github.com/reddit/snudown/archive/v1.1.3.tar.gz#egg=snudown-1.1.3",
-        "https://s3.amazonaws.com/code.reddit.com/pycaptcha-0.4.tar.gz#egg=pycaptcha-0.4",
+        "http://http.debian.net/debian/pool/main/p/pycaptcha/pycaptcha_0.4.orig.tar.bz2#egg=pycaptcha-0.4",
     ],
     packages=find_packages(exclude=["ez_setup"]),
     cmdclass=commands,

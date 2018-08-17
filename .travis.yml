@@ -23,6 +23,7 @@ install:
 #    - sudo apt-get update -q
     - >
         sudo apt-get install -y \
+            libmemcached-dev \
             make \
             pylint \
             python-beautifulsoup \
@@ -32,7 +33,7 @@ install:
             python-nose \
             python-pip \
             python-pylons \
-            python-tz
+            python-tz \
     - sudo pip install flake8>=3.5.0
     - sudo pip install flake8_formatter_junit_xml
 #    - sudo install/travis.sh travis .
